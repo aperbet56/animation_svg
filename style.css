@@ -1,0 +1,36 @@
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #eeeeee;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon path:nth-child(1) {
+    stroke-dasharray: 2338px; 
+    stroke-dashoffset: 2338px;
+    animation: anim 7s ease forwards;
+}
+
+/**** Animation anim ****/
+
+@keyframes anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
