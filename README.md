@@ -6,7 +6,7 @@ Réalisation d'une animation sur un svg
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/animation_svg/
 
 ## Développez avec
 
